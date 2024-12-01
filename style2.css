@@ -1,0 +1,116 @@
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: normal;
+    background-image:url(image/minicap.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor:url(image/curseur.jpg), auto;
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+  
+#NomPortraitDescription{
+    display:flex;
+    align-self: center;
+    flex-direction: column;
+    
+    
+}
+#portrait{
+    width: 220px;
+    height: 220px;
+}
+#mail{
+    width: 30px;
+    height: 30px;
+}
+.big-container{
+    display:flex;
+    min-height: 100vh;
+}
+
+
+
+.fix{
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    
+}
+#firstname{
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 10px;
+}
+.main{
+    width:100%;
+    height: cover;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+
+}
+.fixe{
+    position: fixed;
+    top: 0;
+    left: 350px;
+    padding: 10px;
+}
+
+
+header, nav{
+    display:flex ;
+    gap: 10px;
+}
+#email{
+    display:flex;
+    margin-left: 290px;align-items: center;
+}
+
+.grid { 
+    display: grid; 
+    grid-template-columns: 50% 50%;
+    justify-items:center;
+        
+}
+
+#un:hover{
+    align-items: center;
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    position: relative;
+    width: 200px;
+    background-image:url(image/portrait.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 200px;
+}
+
+#trois{
+   padding-top: 50%;
+}
+#life{
+    display: flex;
+    inline-size: 80px;
+    align-self: center;
+    margin: auto;
+    
+}
+
+#h1{
+    display: flex;
+    align-self: center;
+    color:black;
+    font-size: large;
+}
+.prenom{
+    padding-left: 20px;
+}
